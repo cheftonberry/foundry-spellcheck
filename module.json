@@ -2,23 +2,25 @@
   "id": "foundry-spellcheck",
   "title": "Foundry Spellcheck",
   "description": "Enables native browser spellcheck and right-click spelling suggestions in Foundry VTT v13 editors.",
-  "version": "1.0.0",
+  "version": "0.3.2",
   "authors": [
     {
       "name": "Chef Tonberry",
-      "url": "https://github.com/cheftonberry"
+      "url": "https://github.com/cheftonberry",
+      "discord": "cheftonberry",
+      "email" : "cheftonberry@gmail.com"
     }
   ],
   "license": "AGPL-3.0-only",
   "readme": "README.md",
   "bugs": "https://github.com/cheftonberry/foundry-spellcheck/issues",
-  "repository": "https://github.com/cheftonberry/foundry-spellcheck",
+  "url": "https://github.com/cheftonberry/foundry-spellcheck",
   "compatibility": {
     "minimum": "13",
-    "verified": "13"
+    "verified": "13.351"
   },
   "esmodules": [
-    "main.js"
+    "scripts/main.js"
   ],
   "url": "https://github.com/cheftonberry/foundry-spellcheck",
   "manifest": "https://github.com/cheftonberry/foundry-spellcheck/releases/latest/download/module.json",
