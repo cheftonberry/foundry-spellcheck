@@ -8,5 +8,8 @@ Foundry suppresses the browser’s default context menu inside its editors. This
 
 ---
 
+## Installation
 
+Paste the following URL into **Foundry VTT → Add-on Modules → Install Module**:
 
+https://github.com/cheftonberry/foundry-spellcheck/releases/latest/download/module.json
