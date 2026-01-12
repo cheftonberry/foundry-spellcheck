@@ -1,28 +1,25 @@
 {
-  "id": "foundry-spellcheck",
-  "title": "Foundry Spellcheck",
-  "description": "Enables native browser spellcheck and right-click spelling suggestions in Foundry VTT v13 editors.",
-  "version": "0.3.2",
-  "authors": [
-    {
-      "name": "Chef Tonberry",
-      "url": "https://github.com/cheftonberry",
-      "discord": "cheftonberry",
-      "email" : "cheftonberry@gmail.com"
-    }
-  ],
-  "license": "AGPL-3.0-only",
-  "readme": "README.md",
-  "bugs": "https://github.com/cheftonberry/foundry-spellcheck/issues",
-  "url": "https://github.com/cheftonberry/foundry-spellcheck",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13.351"
-  },
-  "esmodules": [
-    "scripts/main.js"
-  ],
-  "url": "https://github.com/cheftonberry/foundry-spellcheck",
-  "manifest": "https://github.com/cheftonberry/foundry-spellcheck/releases/latest/download/module.json",
-  "download": "https://github.com/cheftonberry/foundry-spellcheck/releases/latest/download/foundry-spellcheck.zip"
+    "id": "foundry-spellcheck",
+    "title": "Foundry Spellcheck",
+    "description": "Enables native browser spellcheck and right-click spelling suggestions in Foundry VTT v13 editors.",
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13.351"
+    },
+    "version": "0.3.2",
+    "esmodules": [
+        "scripts/main.js"
+    ],
+    "url": "https://github.com/cheftonberry/foundry-spellcheck",
+    "manifest": "https://github.com/cheftonberry/foundry-spellcheck/releases/download/0.3.2/module.json",
+    "download": "https://github.com/cheftonberry/foundry-spellcheck/releases/download/0.3.2/module.zip",
+    "bugs": "https://github.com/cheftonberry/foundry-spellcheck/issues",
+    "authors": [
+        {
+   	    "name": "Chef Tonberry",
+    	    "url": "https://github.com/cheftonberry",
+    	    "discord": "cheftonberry",
+    	    "email" : "cheftonberry@gmail.com"
+        }
+    ]
 }
