@@ -12,4 +12,4 @@ Foundry suppresses the browser’s default context menu inside its editors. This
 
 Paste the following URL into **Foundry VTT → Add-on Modules → Install Module**:
 
-https://github.com/cheftonberry/foundry-spellcheck/releases/latest/download/module.json
+[Link here](https://github.com/cheftonberry/foundry-spellcheck/releases/download/0.3.2/module.json)
