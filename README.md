@@ -1,6 +1,6 @@
 # Foundry Spellcheck
 
-**<p>Any support via the  or <a href="https://ko-fi.com/cheftonberry" target="_blank" rel="nofollow noopener">Ko-fi</a> is greatly appreciated! If you are a Patreon subscriber you will receive access to the FXMaster+ module. FXMaster+ can be accessed from Patreon, and it's where I will be adding new particle effects and filters moving forward. For the month of November, it will get you access to the 🟤Duststorm, 🟤Sandstorm, 🟢 Ghosts, 🟡 Sunlight, 🟢 Magic Crystals, 🟡 Fireflies, 🌸 Sakura Bloom, 🌸 Sakura Blossoms — Effects previewed below:</p>**
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'V7V41TBK1P');kofiwidget2.draw();</script> 
 
 A lightweight quality-of-life module for **Foundry Virtual Tabletop v13** that restores **native browser spellcheck and right-click spelling suggestions** while editing Journals, Actors, and Items.
 
