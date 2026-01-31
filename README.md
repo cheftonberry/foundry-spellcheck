@@ -1,5 +1,7 @@
 # Foundry Spellcheck
 
+https://ko-fi.com/cheftonberry
+
 A lightweight quality-of-life module for **Foundry Virtual Tabletop v13** that restores **native browser spellcheck and right-click spelling suggestions** while editing Journals, Actors, and Items.
 
 Foundry suppresses the browser’s default context menu inside its editors. This module re-enables it where appropriate, allowing you to use your browser’s built-in spellchecker, naturally this will require you to be using Foundry on the browser.
