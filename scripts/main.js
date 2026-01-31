@@ -7,8 +7,6 @@
 
 const MOD_ID = "foundry-spellcheck";
 
-/* Settings                                     */
-
 Hooks.once("init", () => {
   game.settings.register(MOD_ID, "language", {
     name: "Spellcheck language",
@@ -29,8 +27,6 @@ Hooks.once("init", () => {
   });
 });
 
-/* Spellcheck attributes (mostly redundant but safe) */
-
 function applySpellcheckAttributes(root) {
   const lang = game.settings.get(MOD_ID, "language") || "en-US";
 
@@ -44,10 +40,7 @@ function applySpellcheckAttributes(root) {
   }
 }
 
-/* Native context menu escape hatch (KEY FIX)   */
-
 Hooks.once("ready", () => {
-  // Prevent double-install on hot reload
   if (window.__foundrySpellcheckContextMenuInstalled) return;
   window.__foundrySpellcheckContextMenuInstalled = true;
 
@@ -59,18 +52,15 @@ Hooks.once("ready", () => {
       const target = ev.target;
       if (!(target instanceof Element)) return;
 
-      // Only allow native menu inside ProseMirror editors
       if (!target.closest(".ProseMirror")) return;
 
 
       ev.stopPropagation();
       ev.stopImmediatePropagation();
     },
-    true // capture phase so we beat Foundry's handlers
+    true 
   );
 });
-
-/* Sheet hooks                                  */
 
 Hooks.on("renderJournalPageSheet", (_app, html) => {
   applySpellcheckAttributes(html[0]);
