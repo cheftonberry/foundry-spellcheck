@@ -1,6 +1,5 @@
 # Foundry Spellcheck
 
-https://ko-fi.com/cheftonberry
 
 A lightweight quality-of-life module for **Foundry Virtual Tabletop v13** that restores **native browser spellcheck and right-click spelling suggestions** while editing Journals, Actors, and Items.
 
