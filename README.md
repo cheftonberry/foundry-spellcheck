@@ -1,6 +1,7 @@
 # Foundry Spellcheck
 
-<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support me on Ko-fi', '#72a4f2', 'V7V41TBK1P');kofiwidget2.draw();</script> 
+[![Support me on Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V41TBK1P)
+
 
 A lightweight quality-of-life module for **Foundry Virtual Tabletop v13** that restores **native browser spellcheck and right-click spelling suggestions** while editing Journals, Actors, and Items.
 
