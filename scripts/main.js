@@ -4,31 +4,16 @@
  * Licensed under the GNU AGPL v3.0
  */
 
-
 const MOD_ID = "foundry-spellcheck";
 
-Hooks.once("init", () => {
-  game.settings.register(MOD_ID, "language", {
-    name: "Spellcheck language",
-    hint: "BCP-47 language tag (e.g. en-US, en-GB).",
-    scope: "client",
-    config: true,
-    type: String,
-    default: game.i18n.lang || "en-US"
-  });
-
-  game.settings.register(MOD_ID, "allowNativeContextMenu", {
-    name: "Allow native right-click menu in editors",
-    hint: "Allows Chrome spelling suggestions inside Journal / Actor / Item editors.",
-    scope: "client",
-    config: true,
-    type: Boolean,
-    default: true
-  });
-});
+function getSpellcheckLanguage() {
+  return document.documentElement?.lang
+    || navigator.language
+    || "en-US";
+}
 
 function applySpellcheckAttributes(root) {
-  const lang = game.settings.get(MOD_ID, "language") || "en-US";
+  const lang = getSpellcheckLanguage();
 
   const editors = root.querySelectorAll(".ProseMirror");
   for (const el of editors) {
@@ -47,18 +32,16 @@ Hooks.once("ready", () => {
   document.addEventListener(
     "contextmenu",
     (ev) => {
-      if (!game.settings.get(MOD_ID, "allowNativeContextMenu")) return;
-
       const target = ev.target;
       if (!(target instanceof Element)) return;
 
       if (!target.closest(".ProseMirror")) return;
 
-
+      // Allow browser native spellcheck menu
       ev.stopPropagation();
       ev.stopImmediatePropagation();
     },
-    true 
+    true
   );
 });
 
