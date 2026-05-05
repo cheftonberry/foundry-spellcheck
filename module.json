@@ -11,8 +11,8 @@
         "scripts/main.js"
     ],
     "url": "https://github.com/cheftonberry/foundry-spellcheck",
-    "manifest": "https://github.com/cheftonberry/foundry-spellcheck/releases/download/1.1.0/module.json",
-    "download": "https://github.com/cheftonberry/foundry-spellcheck/releases/download/1.1.0/module.zip",
+    "manifest": "https://github.com/cheftonberry/foundry-spellcheck/releases/download/1.2.0/module.json",
+    "download": "https://github.com/cheftonberry/foundry-spellcheck/releases/download/1.2.0/module.zip",
     "bugs": "https://github.com/cheftonberry/foundry-spellcheck/issues",
     "authors": [
         {
