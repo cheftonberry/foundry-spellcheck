@@ -1,6 +1,5 @@
 ## Chef's Spellcheck
 
-Foundry V14 is supported.
 
 Detached windows receive spellcheck underlines, but native browser right-click spelling suggestions are currently limited by Foundry's detached-window shell and may not appear there.
 
