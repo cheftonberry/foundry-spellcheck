@@ -1,6 +1,7 @@
 # Chef's Spellchecker 2
 
-<img width="636" height="444" alt="spellchecker2" src="https://github.com/user-attachments/assets/45f6696a-eba3-42b6-b919-bf7fd89d1a83" />
+<img width="490" height="298" alt="spellchecker2" src="https://github.com/user-attachments/assets/48cd6670-32d9-4335-b09f-62e691e0a4a2" />
+
 
 
 Chef's Spellchecker 2 provides offline spellchecking for Foundry VTT v13 and v14 rich-text editors, textareas, and text fields.
