@@ -4,9 +4,9 @@
 
 ---
 
-Chef's Spellchecker 2 provides offline spellchecking for Foundry VTT v13 and v14 rich-text editors, textareas, and text fields.
+Chef's Spellchecker 2 provides offline spellchecking for Foundry VTT v13 and v14.
 
-Version 2.0.1 is a complete rework of the module's interface and behavior. It adds module-owned red underlines, a custom right-click suggestion menu, support for the Foundry desktop application and v14 detached windows, and safe replacements that retain editor undo support. The US-English dictionary is bundled locally, so journal and character text is never sent to an external spelling service.
+Version 2.0.1 is a complete rework of the module's interface and behavior. Custom spellchecking UI that supports both the Foundry VTT application and browsers. Also supports detached windows now. Local offline dictionary, browser dictionary no longer needed.
 
 Use **Add “word” to dictionary** to accept a campaign name or custom term. Personal dictionary entries are stored locally for the current browser or Foundry desktop client and persist across sessions.
 
