@@ -12,8 +12,6 @@ Use **Add “word” to dictionary** to accept a campaign name or custom term. P
 
 To remove all added words, open **Configure Settings**, find **Chef's Spellchecker 2**, and select **Reset Personal Dictionary**.
 
-The internal module ID remains `foundry-spellcheck` so existing installations can upgrade normally.
-
 ## Third-party software
 
 The suggestion engine uses [nspell](https://github.com/wooorm/nspell) and [dictionary-en](https://github.com/wooorm/dictionaries). Copies of their respective licenses are included in `third-party/`.
