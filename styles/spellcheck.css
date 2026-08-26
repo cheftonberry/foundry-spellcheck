@@ -1,0 +1,79 @@
+::highlight(foundry-spellcheck-misspelled) {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: #d92929;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 2px;
+}
+
+.foundry-spellcheck-menu {
+  position: fixed;
+  inset: auto;
+  z-index: 100000;
+  display: flex;
+  min-width: 12rem;
+  max-width: min(22rem, calc(100vw - 1rem));
+  padding: 0.3rem;
+  margin: 0;
+  flex-direction: column;
+  gap: 0.1rem;
+  color: var(--color-text-primary, #f0f0e0);
+  background: var(--color-cool-5-90, rgb(20 24 31 / 96%));
+  border: 1px solid var(--color-border-light-tertiary, #7a7971);
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 55%);
+  font-family: var(--font-primary, sans-serif);
+  font-size: var(--font-size-14, 0.875rem);
+}
+
+.foundry-spellcheck-menu button {
+  width: 100%;
+  min-height: 1.8rem;
+  padding: 0.25rem 0.55rem;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: none;
+  text-align: left;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.foundry-spellcheck-menu button:is(:hover, :focus-visible) {
+  color: var(--color-text-light-highlight, #fff);
+  background: var(--color-warm-2, #9f5f27);
+  outline: none;
+}
+
+.foundry-spellcheck-menu__empty {
+  padding: 0.35rem 0.55rem;
+  color: var(--color-text-secondary, #b5b3a4);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.foundry-spellcheck-menu__divider {
+  height: 1px;
+  margin: 0.25rem 0.2rem;
+  background: var(--color-border-light-tertiary, #7a7971);
+  opacity: 0.65;
+}
+
+.foundry-spellcheck-settings__words {
+  display: flex;
+  max-height: 10rem;
+  margin: 0.75rem 0;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  overflow-y: auto;
+  border: 1px solid var(--color-border-light-tertiary, #7a7971);
+  border-radius: 4px;
+}
+
+.foundry-spellcheck-settings__words span {
+  padding: 0.15rem 0.4rem;
+  background: var(--color-cool-5-50, rgb(20 24 31 / 50%));
+  border-radius: 3px;
+}

@@ -1,0 +1,20 @@
+<form class="{{cssClass}} foundry-spellcheck-settings" autocomplete="off">
+  <p>
+    Your personal dictionary contains <strong>{{wordCount}}</strong>
+    added {{wordLabel}} on this client.
+  </p>
+
+  {{#if hasWords}}
+  <div class="foundry-spellcheck-settings__words" aria-label="Personal dictionary words">
+    {{#each words}}<span>{{this}}</span>{{/each}}
+  </div>
+  {{/if}}
+
+  <footer class="sheet-footer flexrow">
+    {{#if hasWords}}
+    <button type="submit"><i class="fa-solid fa-eraser"></i> Reset Personal Dictionary</button>
+    {{else}}
+    <button type="button" disabled><i class="fa-solid fa-eraser"></i> Dictionary Is Empty</button>
+    {{/if}}
+  </footer>
+</form>

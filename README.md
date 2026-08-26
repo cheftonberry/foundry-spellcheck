@@ -1,19 +1,15 @@
-## Chef's Spellcheck
+# Chef's Spellchecker 2
 
-Native browser spellcheck support for Foundry VTT editors.
+Chef's Spellchecker 2 provides offline spellchecking for Foundry VTT v13 and v14 rich-text editors, textareas, and text fields.
 
-If you find this module useful and would like to support future development, consider supporting me on Patreon:
+Version 2.0.1 is a complete rework of the module's interface and behavior. It adds module-owned red underlines, a custom right-click suggestion menu, support for the Foundry desktop application and v14 detached windows, and safe replacements that retain editor undo support. The US-English dictionary is bundled locally, so journal and character text is never sent to an external spelling service.
 
-❤️ **Patreon:** https://www.patreon.com/cw/chefscauldron
+Use **Add “word” to dictionary** to accept a campaign name or custom term. Personal dictionary entries are stored locally for the current browser or Foundry desktop client and persist across sessions.
 
----
+To remove all added words, open **Configure Settings**, find **Chef's Spellchecker 2**, and select **Reset Personal Dictionary**.
 
-Detached windows receive spellcheck underlines, but native browser right-click spelling suggestions are currently limited by Foundry's detached-window shell and may not appear there.
+The internal module ID remains `foundry-spellcheck` so existing installations can upgrade normally.
 
-<img width="1022" height="803" alt="Browser spellcheck context menu inside Foundry editor" src="https://github.com/user-attachments/assets/dc6adf2d-845a-4ddb-98b6-61838e9cb025" />
+## Third-party software
 
----
-
-# Foundry V14
-
-Currently works for Foundry V14 but does not support detached browsers.
+The suggestion engine uses [nspell](https://github.com/wooorm/nspell) and [dictionary-en](https://github.com/wooorm/dictionaries), distributed under their respective licenses in `third-party/`.
