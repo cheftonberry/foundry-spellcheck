@@ -6,7 +6,7 @@
 
 Chef's Spellchecker 2 provides offline spellchecking for Foundry VTT v13 and v14.
 
-Version 2.0.1 is a complete rework of the module's interface and behavior. Custom spellchecking UI that supports both the Foundry VTT application and browsers. Also supports detached windows now. Local offline dictionary, browser dictionary no longer needed.
+Version 2.0.1 is a complete rework of the module's interface and behavior. It introduces a custom spellchecking interface that supports both the Foundry VTT desktop application and web browsers, including detached windows. The dictionary is bundled locally for offline use, so a browser-provided dictionary is no longer required.
 
 Use **Add “word” to dictionary** to accept a campaign name or custom term. Personal dictionary entries are stored locally for the current browser or Foundry desktop client and persist across sessions.
 
@@ -16,4 +16,4 @@ The internal module ID remains `foundry-spellcheck` so existing installations ca
 
 ## Third-party software
 
-The suggestion engine uses [nspell](https://github.com/wooorm/nspell) and [dictionary-en](https://github.com/wooorm/dictionaries), distributed under their respective licenses in `third-party/`.
+The suggestion engine uses [nspell](https://github.com/wooorm/nspell) and [dictionary-en](https://github.com/wooorm/dictionaries). Copies of their respective licenses are included in `third-party/`.
